@@ -12,7 +12,7 @@ import thumbnailIdleReset from "../../static/images/feature-idle-reset.png"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Save yourself from RSI and eye-strain"/>
+    <SEO />
 
     <div className={"page-header home"}>
       <h1>Save yourself from RSI and eye-strain</h1>

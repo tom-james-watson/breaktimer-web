@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         title: `BreakTimer`,
-        description: `Manage periodic breaks`,
+        description: `Save yourself from RSI and eye-strain`,
         author: `@tom_j_watson`,
     },
     plugins: [
