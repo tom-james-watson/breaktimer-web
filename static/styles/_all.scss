@@ -15,7 +15,7 @@ body {
   }
 
   a {
-    color: #8953B7;
+    color: #16A085;
 
     &:hover, &:active {
       color: #8953b7;
@@ -23,14 +23,33 @@ body {
   }
 
   header {
-    background-color: #FDFAFF;
+    background-color: #FFFFFF;
     display: block;
     padding: 39px 0;
 
     .logo {
       img {
-        width: 151px;
         height: 44px;
+      }
+    }
+
+    .title {
+      font-family: PT Serif;
+      font-weight: bold;
+      color: #1E1C21;
+      font-size: 24px;
+      line-height: 50px;
+      vertical-align: text-bottom;
+      margin-left: 10px;
+    }
+
+    @media screen and (max-width: $break-small) {
+      .logo img {
+        display: none;
+      }
+
+      .title {
+        margin-left: 0;
       }
     }
 
@@ -47,7 +66,7 @@ body {
           font-size: 16px;
           line-height: 47px;
           display: block;
-          background: #8953B7;
+          background: #16A085;
           border-radius: 4px;
           text-align: center;
           color: #FFFFFF;
@@ -59,7 +78,7 @@ body {
   .page-header {
     text-align: center;
     padding: 100px 0 100px 0;
-    background-color: #fdfaff;
+    background-color: #FFFFFF;
     border-radius: 0px 0px 40px 40px;
 
     h1 {
@@ -87,6 +106,8 @@ body {
     }
 
     img {
+      border-radius: 4px;
+      box-shadow: 1px 1px 10px #ccc;
       margin-top: 61px;
       max-width: 65%;
     }
@@ -105,6 +126,44 @@ body {
 
       img {
         max-width: 80%;
+      }
+    }
+  }
+
+  .linux {
+    .button {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      @media screen and (max-width: $break-small) {
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+      }
+
+      a {
+        font-size: 18px;
+        background-color: #16A085;
+        width: 184px;
+        margin: 10px 0;
+        border-radius: 4px;
+        height: 54px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-weight: bold;
+        flex-direction: column;
+        color: #ffffff;
+
+        @media screen and (max-width: $break-small) {
+          margin: 0 auto;
+        }
+
+        &:active {
+
+        }
       }
     }
   }
@@ -142,6 +201,8 @@ body {
 
       .thumbnail {
         img {
+          border-radius: 4px;
+          box-shadow: 1px 1px 10px #ccc;
           max-width: 100%;
         }
       }
@@ -169,10 +230,9 @@ body {
   }
 
   .call-to-action {
-    background-color: #8953B7;
+    background-color: #16A085;
     color: #ffffff;
     padding: 65px 0;
-    border-radius: 40px 40px 0px 0px;
 
     .container {
       display: flex;
@@ -184,6 +244,11 @@ body {
           text-align: center;
         }
       }
+    }
+
+    .download-button {
+      display: flex;
+      justify-content: center;
     }
 
     .button {
@@ -210,7 +275,7 @@ body {
         justify-content: center;
         font-weight: bold;
         flex-direction: column;
-        color: #8953B7;
+        color: #16A085;
 
         @media screen and (max-width: $break-small) {
           margin: 0 auto;
@@ -277,7 +342,9 @@ body {
   }
 
   footer {
-    padding: 120px 0 45px;
+    padding: 60px 0 45px;
+    font-size: 14px;
+    line-height: 23px;
 
     @media screen and (max-width: $break-small) {
       padding: 50px 0 45px;
@@ -290,11 +357,6 @@ body {
 
       .about {
         margin-top: 26px;
-      }
-
-      .about {
-        font-size: 14px;
-        line-height: 23px;
       }
 
       .links {
@@ -322,54 +384,18 @@ body {
             }
           }
         }
-
-        .links__special {
-          background-color: #8953b7;
-          color: #ffffff;
-          border-radius: 4px;
-          padding: 2px 5px;
-          &:hover {
-            color: #ffffff;
-          }
-        }
       }
 
-      .social {
-        text-align: right;
-
-        @media screen and (max-width: $break-small) {
-          text-align: center;
-        }
-
-        a {
-          margin-left: 20px;
-
-          img {
-            filter: contrast(0);
-            transition: 0.15s;
-          }
-
-          &:hover img {
-            filter: contrast(1);
-          }
-
-          &:first-child {
-            margin-left: 0;
-          }
-        }
-      }
     }
 
     .copyright {
       text-align: center;
-      margin-top: 90px;
+      margin-top: 60px;
+      font-size: 14px;
+      line-height: 23px;
 
       @media screen and (max-width: $break-small) {
         margin-top: 31px;
-      }
-
-      p {
-        font-size: 13px;
       }
     }
   }

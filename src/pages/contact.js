@@ -14,14 +14,13 @@ const ContactPage = () => (
 
                 <div className={"row"}>
                     <div className={"col-7"}>
-                        <p>We take our commitment to our users seriously. If you need our help with your user account, have questions about how to use the HiStaff, any feedback or are experiencing technical difficulties, please do not hesitate to contact us.</p>
+                      <p>If you need our help with using BreakTimer, want to report any issues or suggest new features, then the best way is to create an issue on the GitHub repository:</p>
+                      <h2><a href="https://github.com/tom-james-watson/breaktimer-app/issues">GitHub Issue Tracker</a></h2>
                     </div>
 
                     <div className={"col-5"}>
-                        <div className={"contact-items"}>
-                            <p>Plain email is the best way to contact us.</p>
-                            <h2>contact@histaff.io</h2>
-                        </div>
+                        <p>For anything else, plain email is the best way to contact me.</p>
+                        <h2>contact@breaktimer.app</h2>
                     </div>
                 </div>
             </div>

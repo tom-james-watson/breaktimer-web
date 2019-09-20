@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: `HiStaff`,
-        description: `Make your Staff and Workspace Happy`,
-        author: `@mostafasoufi`,
+        title: `BreakTimer`,
+        description: `Manage periodic breaks`,
+        author: `@tom_j_watson`,
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -21,10 +21,10 @@ module.exports = {
                 name: `gatsby-starter-default`,
                 short_name: `starter`,
                 start_url: `/`,
-                background_color: `#663399`,
-                theme_color: `#FF54AC`,
+                background_color: `#16A085`,
+                theme_color: `#16A085`,
                 display: `minimal-ui`,
-                icon: `${__dirname}/static/images/histaff.png`, // This path is relative to the root of the site.
+                icon: `${__dirname}/static/images/breaktimer.png`, // This path is relative to the root of the site.
             },
         },
         `gatsby-plugin-sass`,

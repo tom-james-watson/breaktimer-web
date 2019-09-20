@@ -8,13 +8,14 @@ const Header = ({siteTitle}) => (
         <div className={"container"}>
             <div className={"top-menu"}>
                 <div className={"logo"}>
-                    <Link to="/" title={"HiStaff"}>
+                    <Link to="/" title={"BreakTimer"}>
                         <img alt={"Logo"} src={logo}/>
+                        <span className={"title"}>BreakTimer</span>
                     </Link>
                 </div>
 
                 <div className={"get-started"}>
-                    <a href={"https://app.histaff.io"}>Get Started</a>
+                    <a href={"/#download"}>Download</a>
                 </div>
             </div>
         </div>
