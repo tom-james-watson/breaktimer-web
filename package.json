@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "breaktimer-web",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A desktop application for managing periodic breaks",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Tom Watson <tom@tomjwatson.com>",
   "dependencies": {
     "gatsby": "^2.7.5",
     "gatsby-cli": "^2.7.47",
@@ -23,26 +23,25 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "prettier": "^1.17.1",
     "sass": "^1.20.3"
   },
   "keywords": [
+    "break timer",
     "gatsby"
   ],
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "scripts": {
     "build": "gatsby build --output-dir",
     "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/tom-james-watson/breaktimer-web"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/tom-james-watson/breaktimer-web/issues"
   }
 }
