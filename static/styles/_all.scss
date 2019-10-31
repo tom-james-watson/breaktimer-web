@@ -108,8 +108,12 @@ body {
     img {
       border-radius: 4px;
       box-shadow: 1px 1px 10px #ccc;
-      margin-top: 61px;
+      margin-top: 30px;
       max-width: 65%;
+    }
+
+    .github-button {
+      margin-top: 30px;
     }
 
     &.home {

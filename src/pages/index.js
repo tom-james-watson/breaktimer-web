@@ -1,5 +1,6 @@
 import React from "react"
 import {Link} from "gatsby"
+import GitHubButton from 'react-github-btn'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -16,7 +17,20 @@ const IndexPage = () => (
 
     <div className={"page-header home"}>
       <h1>Save yourself from RSI and eye-strain</h1>
+
       <p>BreakTimer allows you to set up customizable breaks and will remind you to take them.<br/>BreakTimer is free and <a href="https://github.com/tom-james-watson/breaktimer-app">open source</a> and available for Windows, macOS and Linux.</p>
+
+      <div className="github-button">
+        <GitHubButton
+          href="https://github.com/tom-james-watson/breaktimer-app"
+          data-size="large"
+          data-show-count="true"
+          aria-label="Star tom-james-watson/breaktimer-app on GitHub"
+        >
+          Star
+        </GitHubButton>
+      </div>
+
       <img alt={"Dashboard"} src={featureImage}/>
     </div>
 
