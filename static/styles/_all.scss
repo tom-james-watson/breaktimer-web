@@ -242,6 +242,10 @@ body {
 
         .call-to-action__content {
           text-align: center;
+
+          h2 {
+            margin-bottom: 0;
+          }
         }
       }
     }
@@ -249,6 +253,10 @@ body {
     .download-button {
       display: flex;
       justify-content: center;
+    }
+
+    .windows-caveat {
+      margin-top: 32px;
     }
 
     .button {

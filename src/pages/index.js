@@ -120,7 +120,7 @@ const IndexPage = () => (
 
         <div className={"col-4 download-button"}>
           <div className={"button"}>
-            <a href="https://github.com/tom-james-watson/breaktimer-app/releases/latest/download/BreakTimer.exe">Windows</a>
+            <a href="https://github.com/tom-james-watson/breaktimer-app/releases/latest/download/BreakTimer.exe">Windows*</a>
           </div>
         </div>
 
@@ -134,6 +134,11 @@ const IndexPage = () => (
           <div className={"button"}>
             <Link to="/linux" title={"Linux"}>Linux</Link>
           </div>
+        </div>
+      </div>
+      <div className={"container"}>
+        <div className={"col-12 windows-caveat"}>
+          * The Windows executable is currently not signed, which will show a warning when you run the .exe. Press 'more info' -> 'run anyway' to skip the warning.
         </div>
       </div>
     </div>
