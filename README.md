@@ -9,12 +9,18 @@
 
 The gatsby static website that powers https://www.breaktimer.app
 
-## 🚀 Quick start
+## Development
 
-1. **Start the site in `develop` mode.**
+Install dependencies:
 
- ```sh
- yarn develop
- ```
+```sh
+npm i
+```
 
- Your site is now running at http://localhost:8000.
+Start the site in `develop` mode:
+
+```sh
+npm start
+```
+
+Your site is now running at http://localhost:8000.

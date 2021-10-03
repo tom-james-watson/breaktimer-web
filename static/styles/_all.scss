@@ -8,22 +8,27 @@ body {
     font-family: Inter;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: PT Serif;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     line-height: 43px;
-    color: #1E1C21;
+    color: #1e1c21;
   }
 
   a {
-    color: #16A085;
+    color: #16a085;
 
-    &:hover, &:active {
+    &:hover,
+    &:active {
       color: #8953b7;
     }
   }
 
   header {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     display: block;
     padding: 39px 0;
 
@@ -34,13 +39,13 @@ body {
     }
 
     .title {
-      font-family: PT Serif;
       font-weight: bold;
-      color: #1E1C21;
+      color: #1e1c21;
       font-size: 24px;
       line-height: 50px;
       vertical-align: text-bottom;
       margin-left: 10px;
+      letter-spacing: -0.5px;
     }
 
     @media screen and (max-width: $break-small) {
@@ -66,10 +71,10 @@ body {
           font-size: 16px;
           line-height: 47px;
           display: block;
-          background: #16A085;
+          background: #16a085;
           border-radius: 4px;
           text-align: center;
-          color: #FFFFFF;
+          color: #ffffff;
         }
       }
     }
@@ -78,14 +83,14 @@ body {
   .page-header {
     text-align: center;
     padding: 100px 0 100px 0;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 0px 0px 40px 40px;
 
     h1 {
       font-style: normal;
       font-weight: bold;
       font-size: 48px;
-      color: #1E1C21;
+      color: #1e1c21;
       padding: 0 0 15px 0;
       line-height: 54px;
     }
@@ -94,7 +99,7 @@ body {
       font-size: 36px;
       font-style: normal;
       font-weight: bold;
-      color: #1E1C21;
+      color: #1e1c21;
       line-height: 54px;
     }
 
@@ -107,7 +112,7 @@ body {
 
     img {
       border-radius: 4px;
-      box-shadow: 1px 1px 10px #ccc;
+      filter: drop-shadow(1px 1px 10px #ccc);
       margin-top: 30px;
       max-width: 65%;
     }
@@ -124,7 +129,8 @@ body {
       padding-top: 1px;
       padding-bottom: 50px;
 
-      h1, h2 {
+      h1,
+      h2 {
         padding-top: 0;
       }
 
@@ -149,7 +155,7 @@ body {
 
       a {
         font-size: 18px;
-        background-color: #16A085;
+        background-color: #16a085;
         width: 184px;
         margin: 10px 0;
         border-radius: 4px;
@@ -166,7 +172,6 @@ body {
         }
 
         &:active {
-
         }
       }
     }
@@ -194,7 +199,7 @@ body {
           font-size: 36px;
           font-weight: bold;
           margin-bottom: 15px;
-          color: #1E1C21;
+          color: #1e1c21;
         }
 
         p {
@@ -206,7 +211,7 @@ body {
       .thumbnail {
         img {
           border-radius: 4px;
-          box-shadow: 1px 1px 10px #ccc;
+          filter: drop-shadow(1px 1px 10px #ccc);
           max-width: 100%;
         }
       }
@@ -234,7 +239,7 @@ body {
   }
 
   .call-to-action {
-    background-color: #16A085;
+    background-color: #16a085;
     color: #ffffff;
     padding: 65px 0;
 
@@ -287,14 +292,13 @@ body {
         justify-content: center;
         font-weight: bold;
         flex-direction: column;
-        color: #16A085;
+        color: #16a085;
 
         @media screen and (max-width: $break-small) {
           margin: 0 auto;
         }
 
         &:active {
-
         }
       }
     }
@@ -335,7 +339,7 @@ body {
       text-align: center;
       font-size: 26px;
       margin-bottom: 99px;
-      color: #1E1C21;
+      color: #1e1c21;
     }
 
     .item {
@@ -390,14 +394,14 @@ body {
               font-size: 14px;
               color: #797283;
 
-              &:hover, &:active {
+              &:hover,
+              &:active {
                 color: #8953b7;
               }
             }
           }
         }
       }
-
     }
 
     .copyright {
