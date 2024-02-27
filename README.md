@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.breaktimer.app">
-    <img alt="BreakTimer" src="https://raw.githubusercontent.com/tom-james-watson/breaktimer-web/master/static/images/breaktimer.png" width="60" />
+    <img alt="BreakTimer" src="https://raw.githubusercontent.com/tom-james-watson/breaktimer-web/master/app/images/breaktimer.png" width="60" />
   </a>
 </p>
 <h1 align="center">
