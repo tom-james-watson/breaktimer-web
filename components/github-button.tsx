@@ -7,7 +7,7 @@ export default function GithubButton() {
   return (
     <GitHubButton
       href="https://github.com/tom-james-watson/breaktimer-app"
-      data-color-scheme="no-preference: light; light: light; dark: dark;"
+      data-color-scheme="light"
       data-size="large"
       data-show-count="true"
       aria-label="Star tom-james-watson/breaktimer-app on GitHub"
