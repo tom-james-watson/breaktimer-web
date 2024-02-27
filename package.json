@@ -1,47 +1,30 @@
 {
   "name": "breaktimer-web",
-  "private": true,
-  "description": "A desktop application for managing periodic breaks",
   "version": "0.1.0",
-  "author": "Tom Watson <tom@tomjwatson.com>",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "gatsby": "^2.7.5",
-    "gatsby-cli": "^2.7.47",
-    "gatsby-image": "^2.1.2",
-    "gatsby-plugin-manifest": "^2.1.1",
-    "gatsby-plugin-offline": "^2.1.1",
-    "gatsby-plugin-react-helmet": "^3.0.12",
-    "gatsby-plugin-sass": "^2.0.11",
-    "gatsby-plugin-sharp": "^2.1.2",
-    "gatsby-plugin-web-font-loader": "^1.0.4",
-    "gatsby-source-filesystem": "^2.0.37",
-    "gatsby-transformer-sharp": "^2.1.20",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-github-btn": "^1.1.1",
-    "react-helmet": "^5.2.1"
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-github-btn": "^1.4.0"
   },
   "devDependencies": {
-    "sass": "^1.20.3"
-  },
-  "keywords": [
-    "break timer",
-    "gatsby"
-  ],
-  "license": "GPL-3.0-or-later",
-  "scripts": {
-    "build": "gatsby build --output-dir",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tom-james-watson/breaktimer-web"
-  },
-  "bugs": {
-    "url": "https://github.com/tom-james-watson/breaktimer-web/issues"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "prettier": "^3.2.5",
+    "sass": "^1.71.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
   }
 }

@@ -7,7 +7,7 @@
   BreakTimer App Website
 </h1>
 
-The gatsby static website that powers https://www.breaktimer.app
+The nextjs static website that powers https://www.breaktimer.app
 
 ## Development
 
@@ -20,7 +20,7 @@ npm i
 Start the site in `develop` mode:
 
 ```sh
-npm start
+npm run dev
 ```
 
-Your site is now running at http://localhost:8000.
+Your site is now running at http://localhost:3000.

@@ -1,12 +1,12 @@
 $break-small: 719px;
 
-body {
-  font-family: Inter;
-  color: #797283;
+img {
+  width: 100%;
+  height: auto;
+}
 
-  p {
-    font-family: Inter;
-  }
+body {
+  color: #797283;
 
   h1,
   h2,
@@ -35,6 +35,7 @@ body {
     .logo {
       img {
         height: 44px;
+        width: 44px;
       }
     }
 
@@ -306,7 +307,6 @@ body {
     .call-to-action__content {
       h2 {
         font-size: 36px;
-        font-family: Inter;
         font-weight: 600;
         margin: 0 0 32px;
         color: #ffffff;
@@ -362,6 +362,11 @@ body {
     font-size: 14px;
     line-height: 23px;
 
+    .logo img {
+      height: 50px;
+      width: 50px;
+    }
+
     @media screen and (max-width: $break-small) {
       padding: 50px 0 45px;
     }
@@ -380,7 +385,6 @@ body {
           font-size: 14px;
           font-weight: bold;
           text-transform: uppercase;
-          font-family: Inter;
           line-height: 0;
         }
 
