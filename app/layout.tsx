@@ -7,9 +7,6 @@ import "./styles/_grid.scss";
 import "./styles/_all.scss";
 import Header from "@/components/header";
 import Link from "next/link";
-import logo from "./images/logo.svg";
-import Image from "next/image";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -34,7 +31,7 @@ export default function RootLayout({
                 <div className={"widget__item"}>
                   <div className={"logo"}>
                     <Link href="/" title={"BreakTimer"}>
-                      <Image alt={"Logo"} src={logo} />
+                      <img alt="Logo" src="/images/logo.svg" />
                     </Link>
                   </div>
 

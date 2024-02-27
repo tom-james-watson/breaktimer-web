@@ -1,6 +1,4 @@
 import React from "react";
-import logo from "../app/images/logo.svg";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
@@ -10,7 +8,7 @@ export default function Header() {
         <div className={"top-menu"}>
           <div className={"logo"}>
             <Link href="/" title={"BreakTimer"}>
-              <Image alt={"Logo"} src={logo} />
+              <img alt="Logo" src="/images/logo.svg" />
               <span className={"title"}>BreakTimer</span>
             </Link>
           </div>

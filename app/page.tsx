@@ -1,10 +1,3 @@
-import Image from "next/image";
-import featureImage from "./images/hero.png";
-import thumbnailConfigure from "./images/feature-configure.png";
-import thumbnailCustomize from "./images/feature-customize.png";
-import thumbnailWorkingHours from "./images/feature-working-hours.png";
-import thumbnailNotification from "./images/feature-notification.png";
-import thumbnailIdleReset from "./images/feature-idle-reset.png";
 import Link from "next/link";
 import GithubButton from "@/components/github-button";
 
@@ -29,7 +22,7 @@ export default function Home() {
           <GithubButton />
         </div>
 
-        <Image alt={"Dashboard"} src={featureImage} />
+        <img alt={"Dashboard"} src="/images/hero.png" />
       </div>
 
       <div className={"container"}>
@@ -38,7 +31,7 @@ export default function Home() {
             <div className={"row"}>
               <div className={"col-6 first"}>
                 <div className={"thumbnail"}>
-                  <Image alt={"Configure"} src={thumbnailConfigure} />
+                  <img alt={"Configure"} src="/images/feature-configure.png" />
                 </div>
               </div>
 
@@ -68,7 +61,7 @@ export default function Home() {
 
               <div className={"col-6 first"}>
                 <div className={"thumbnail"}>
-                  <Image alt={"Board"} src={thumbnailCustomize} />
+                  <img alt={"Board"} src="/images/feature-customize.png" />
                 </div>
               </div>
             </div>
@@ -78,7 +71,7 @@ export default function Home() {
             <div className={"row"}>
               <div className={"col-6 first"}>
                 <div className={"thumbnail"}>
-                  <Image alt={"News"} src={thumbnailWorkingHours} />
+                  <img alt={"News"} src="/images/feature-working-hours.png" />
                 </div>
               </div>
 
@@ -108,7 +101,7 @@ export default function Home() {
 
               <div className={"col-6 first"}>
                 <div className={"thumbnail"}>
-                  <Image alt={"Team"} src={thumbnailNotification} />
+                  <img alt={"Team"} src="/images/feature-notification.png" />
                 </div>
               </div>
             </div>
@@ -118,7 +111,7 @@ export default function Home() {
             <div className={"row"}>
               <div className={"col-6 first"}>
                 <div className={"thumbnail"}>
-                  <Image alt={"Users"} src={thumbnailIdleReset} />
+                  <img alt={"Users"} src="/images/feature-idle-reset.png" />
                 </div>
               </div>
 
