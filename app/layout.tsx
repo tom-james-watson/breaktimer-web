@@ -73,6 +73,9 @@ export default function RootLayout({
                 Both the BreakTimer application and website are licensed under
                 the GNU General Public License v3.0.
               </p>
+              <p>
+                We do not offer support for enterprise environments or commercial deployment. This software is provided ‘as is’ without any warranties or guarantees of support.
+              </p>
             </div>
           </div>
         </footer>
