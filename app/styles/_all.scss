@@ -1,10 +1,5 @@
 $break-small: 719px;
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 body {
   color: #797283;
 
@@ -111,15 +106,20 @@ body {
       line-height: 34px;
     }
 
-    img {
+    .hero-img {
       border-radius: 4px;
       filter: drop-shadow(1px 1px 10px #ccc);
       margin-top: 30px;
       max-width: 65%;
     }
 
-    .github-button {
+    .github-buttons {
       margin-top: 30px;
+      display: flex;
+      gap: 10px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
     }
 
     &.home {
@@ -135,7 +135,7 @@ body {
         padding-top: 0;
       }
 
-      img {
+      .hero-img {
         max-width: 80%;
       }
     }

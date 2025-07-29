@@ -1,5 +1,5 @@
+import GithubButtons from "@/components/github-buttons";
 import Link from "next/link";
-import GithubButton from "@/components/github-button";
 
 export default function Home() {
   return (
@@ -18,11 +18,9 @@ export default function Home() {
           and available for Windows, macOS and Linux.
         </p>
 
-        <div className="github-button">
-          <GithubButton />
-        </div>
+        <GithubButtons />
 
-        <img alt={"Dashboard"} src="/images/hero.png" />
+        <img className="hero-img" alt={"Dashboard"} src="/images/hero.png" />
       </div>
 
       <div className={"container"}>

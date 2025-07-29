@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 // import "./globals.css";
-import "./styles/_variables.scss";
-import "./styles/_reset.scss";
-import "./styles/_grid.scss";
-import "./styles/_all.scss";
 import Header from "@/components/header";
 import Link from "next/link";
+import "./styles/_all.scss";
+import "./styles/_grid.scss";
+import "./styles/_reset.scss";
+import "./styles/_variables.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -74,7 +74,9 @@ export default function RootLayout({
                 the GNU General Public License v3.0.
               </p>
               <p>
-                We do not offer support for enterprise environments or commercial deployment. This software is provided ‘as is’ without any warranties or guarantees of support.
+                We do not offer support for enterprise environments or
+                commercial deployment. This software is provided ‘as is’ without
+                any warranties or guarantees of support.
               </p>
             </div>
           </div>
