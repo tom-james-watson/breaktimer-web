@@ -13,11 +13,7 @@ export default function GithubButtons() {
           alt="GitHub stars"
         />
       </a>
-      <a
-        href="https://github.com/tom-james-watson/breaktimer-app/releases"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="#download">
         <img
           src="https://img.shields.io/github/downloads/tom-james-watson/breaktimer-app/total?logo=github&style=social"
           alt="GitHub downloads"
