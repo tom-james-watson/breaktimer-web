@@ -104,26 +104,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          <div className={"feature__item"}>
-            <div className={"row"}>
-              <div className={"col-6 first"}>
-                <div className={"thumbnail"}>
-                  <img alt={"Users"} src="/images/feature-idle-reset.png" />
-                </div>
-              </div>
-
-              <div className={"col-6"}>
-                <div className={"feature__content"}>
-                  <h2>Idle reset</h2>
-                  <p>
-                    BreakTimer can intelligently restart your break countdown
-                    when it detects that you have not been at your computer.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
