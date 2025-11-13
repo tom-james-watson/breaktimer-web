@@ -19,6 +19,16 @@ export default function Contact() {
               <a href="https://snapcraft.io/breaktimer">Snap</a>
             </div>
             <div className={"button"}>
+              <a href="https://github.com/tom-james-watson/breaktimer-app/releases/latest/download/BreakTimer.deb">
+                .deb
+              </a>
+            </div>
+            <div className={"button"}>
+              <a href="https://github.com/tom-james-watson/breaktimer-app/releases/latest/download/BreakTimer.rpm">
+                .rpm
+              </a>
+            </div>
+            <div className={"button"}>
               <a href="https://github.com/tom-james-watson/breaktimer-app/releases/latest/download/BreakTimer.AppImage">
                 AppImage
               </a>
@@ -32,16 +42,6 @@ export default function Contact() {
               back to the site for updates.
             </p>
 
-            <div className={"button"}>
-              <a href="https://github.com/tom-james-watson/breaktimer-app/releases/latest/download/BreakTimer.deb">
-                .deb
-              </a>
-            </div>
-            <div className={"button"}>
-              <a href="https://github.com/tom-james-watson/breaktimer-app/releases/latest/download/BreakTimer.rpm">
-                .rpm
-              </a>
-            </div>
             <div className={"button"}>
               <a href="https://github.com/tom-james-watson/breaktimer-app/releases/latest/download/BreakTimer.tar.gz">
                 .tar.gz
