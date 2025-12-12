@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.11",
-    "next": "15.4.9",
+    "next": "15.4.10",
     "react": "^19",
     "react-dom": "^19",
     "react-github-btn": "^1.4.0"
