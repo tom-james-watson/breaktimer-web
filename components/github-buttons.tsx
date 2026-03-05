@@ -19,7 +19,7 @@ export default function GithubButtons() {
       </a>
       <a className="shields-badge" href="#download">
         <img
-          src="https://img.shields.io/github/downloads/tom-james-watson/breaktimer-app/latest/total?logo=github&style=social&label=Downloads"
+          src="https://img.shields.io/github/downloads/tom-james-watson/breaktimer-app/total?logo=github&style=social"
           alt="GitHub downloads badge"
           width={160}
           height={20}
