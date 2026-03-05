@@ -1,13 +1,21 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-// import "./globals.css";
+import { Instrument_Sans, Sora } from "next/font/google";
 import Header from "@/components/header";
+import ScrollReset from "@/components/scroll-reset";
+import GithubButtons from "@/components/github-buttons";
 import Link from "next/link";
-import "./styles/_all.scss";
-import "./styles/_grid.scss";
-import "./styles/_reset.scss";
-import "./styles/_variables.scss";
-const inter = Inter({ subsets: ["latin"] });
+import Image from "next/image";
+import "./globals.css";
+
+const instrumentSans = Instrument_Sans({
+  subsets: ["latin"],
+  variable: "--font-body",
+});
+
+const sora = Sora({
+  subsets: ["latin"],
+  variable: "--font-display",
+});
 
 export const metadata: Metadata = {
   title: "BreakTimer",
@@ -21,66 +29,66 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Header />
-        <main>{children}</main>
-        <footer>
-          <div className={"container"}>
-            <div className={"row"}>
-              <div className={"col-5"}>
-                <div className={"widget__item"}>
-                  <div className={"logo"}>
-                    <Link href="/" title={"BreakTimer"}>
-                      <img alt="Logo" src="/images/logo.svg" />
-                    </Link>
-                  </div>
-
-                  <div className={"about"}>
-                    <p>
-                      BreakTimer is free and open source software. It was
-                      originally developed by{" "}
-                      <a href="https://tomjwatson.com">Tom Watson</a> to fulfill
-                      his own desire for a similar tool, and is now shared with
-                      the world for free.
-                    </p>
-                  </div>
+      <body className={`${instrumentSans.variable} ${sora.variable}`}>
+        <a href="#content" className="skip-link">
+          Skip to content
+        </a>
+        <div className="site-shell">
+          <ScrollReset />
+          <Header />
+          <main id="content">{children}</main>
+          <footer className="site-footer">
+            <div className="site-container footer-grid">
+              <div>
+                <div className="footer-brand">
+                  <Link href="/" className="brand-mark footer-logo" title="BreakTimer">
+                    <Image
+                      alt="BreakTimer logo"
+                      src="/images/logo.svg"
+                      width={36}
+                      height={36}
+                    />
+                    <span>BreakTimer</span>
+                  </Link>
+                  <GithubButtons />
                 </div>
               </div>
 
-              <div className={"col-2"}>
-                <div className={"widget__item"}>
-                  <div className={"links"}>
-                    <h4>Support</h4>
-                    <ul>
-                      <li>
-                        <a href="https://github.com/tom-james-watson/breaktimer-app">
-                          GitHub
-                        </a>
-                      </li>
-                      <li>
-                        <Link href="/contact" title={"Contact Us"}>
-                          Contact
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+              <div>
+                <h2 className="meta-label">Resources</h2>
+                <ul>
+                  <li>
+                    <a href="https://github.com/tom-james-watson/breaktimer-app">
+                      GitHub Repository
+                    </a>
+                  </li>
+                  <li>
+                    <Link href="/#download" title="Downloads">
+                      Downloads
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact" title="Contact">
+                      Contact
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
 
-            <div className={"copyright"}>
+            <div className="site-container footer-legal">
               <p>
-                Both the BreakTimer application and website are licensed under
-                the GNU General Public License v3.0.
+                BreakTimer and this website are licensed under GNU General
+                Public License v3.0.
               </p>
               <p>
                 We do not offer support for enterprise environments or
-                commercial deployment. This software is provided ‘as is’ without
-                any warranties or guarantees of support.
+                commercial deployment. This software is provided &apos;as
+                is&apos; without any warranties or guarantees of support.
               </p>
             </div>
-          </div>
-        </footer>
+          </footer>
+        </div>
       </body>
     </html>
   );
