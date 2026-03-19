@@ -146,7 +146,7 @@ ul {
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: var(--section-space);
   align-items: start;
 }
 
